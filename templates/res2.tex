@@ -1,0 +1,67 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{ <<name>> \\[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{<< address.street >> \\ << address.city >> << address.zip >> \\ << email >> \\ << website >> \\ << phone >>}
+
+ 
+\begin{resume} 
+
+\section{Education}
+<!-- for e in education -->
+  {\bf << e.institution >>} \hfill << e.start_date >> - << e.end_date >> \\
+  << e.major >> \\
+  Classes taken: <!-- for c in e.classes --> << c >> <!-- endfor --> \\
+  GPA: << e.gpa >> \\
+<!-- endfor -->
+ 
+
+\section{Work}
+<!-- for w in work -->
+  {\bf << w.company >>}, << w.city >> \hfill << w.start_date >> - << w.end_date >> \\ << w.position >>
+
+  \begin{itemize} \itemsep -2pt  % reduce space between items
+  <!-- for detail in w.details -->
+    \item << detail >>
+  <!-- endfor -->
+  \end{itemize}
+<!-- endfor -->
+ 
+
+\section{Activities} 
+
+<!-- for a in activities -->
+  {\bf << a.organization >>} \hfill << a.start_date >> - << a.end_date >> \\ << a.position >>
+
+  \begin{itemize} \itemsep -2pt
+    <!-- for detail in a.details -->
+      \item << detail >>
+    <!-- endfor -->
+  \end{itemize}
+<!-- endfor -->
+
+
+\section{Honors and Awards}
+<!-- for award in awards --> << award >> \\
+<!-- endfor -->
+
+
+\section{Skills}
+<!-- for skill in skills --> << skill >> \\
+<!-- endfor -->
+
+
+\end{resume} 
+\end{document} 
+
+
+

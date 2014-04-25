@@ -1,0 +1,80 @@
+{
+	"filename": "apr-2014-resume",
+	"name": "Rolph Recto",
+	"phone": "(540) 748-3260",
+	"address": {
+		"street": "175 Scott Lane",
+		"city": "Louisa, VA",
+		"zip": "23093"
+	},
+	"phone": "(540) 748-3260",
+	"website": "www.github.com/rolph-recto",
+	"education": [
+		{
+			"institution": "University of Virginia",
+			"start_date": "Aug 2012",
+			"end_date": "May 2016",
+			"major": "BA in Computer Science and Philosophy",
+			"classes": [
+				"Programming Languages",
+				"Advanced Logic"
+			],
+			"gpa": "3.94"
+		}
+	],
+	"work": [
+		{
+			"position": "Chessboxin derivatives analyst",
+			"company": "Wu-Tang Financial",
+			"city": "Queens, NY",
+			"start_date": "May 2012",
+			"end_date": "Aug 2014",
+			"details": [
+				"Diversified bonds"
+			]
+		},
+		{
+			"position": "Web development intern",
+			"company": "Coshx Labs",
+			"city": "Charlottesville, VA",
+			"start_date": "May 2013",
+			"end_date": "Aug 2013",
+			"details": [
+				"Made prototypes for client websites",
+				"Made NLP demo"
+			]
+		}
+	],
+	"activities": [
+		{
+			"position": "President",
+			"organization": "UVa Undergraduate Philosophy Club",
+			"start_date": "Aug 2013",
+			"end_date": "present",
+			"details": [
+				"Organized meetings",
+				"Prepared movie nights"
+			]
+		},
+		{
+			"position": "Participant",
+			"organization": "International Collegiate Programming Competition",
+			"start_date": "Aug 2013",
+			"end_date": "Dec 2013",
+			"details": [
+				"Participated in 2013 Mid-Atlantic regional competition"
+			]
+		}
+	],
+	"awards": [
+		"Echols Scholar at the UVa College of Arts and Sciences",
+		"2012 Lee and Jackson Foundation scholarship recipient"
+	],
+	"skills": [
+		"Proficiency in Python, Java, C/C++, OCaml, and Haskell",
+		"Proficiency in web design (HTML, Javascript, CSS)",
+		"Proficiency in web development (Django, PHP)",
+		"Some proficiency in Ruby, Prolog",
+		"Proficiency in Git version control software"
+	]
+}
